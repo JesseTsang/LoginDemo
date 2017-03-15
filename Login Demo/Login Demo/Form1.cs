@@ -21,6 +21,12 @@ namespace Login_Demo
         {
             if((textBox1.Text == "username") && (textBox2.Text == "password"))
             {
+                Form2 form2 = new Form2();
+                form2.Show();
+            }
+            else
+            {
+                MessageBox.Show("Login Failed! Please check your username or password.");
 
             }
         }
